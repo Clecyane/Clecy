@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow:hidden;
+}
+.cabecalho {
+  background: #df1fe6e1;
+  padding: 6px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;  
+}
+.cabecalho-home img{
+  /* background-image: url("/Site/cabecalhohome.png"); */
+  width: 100%;
+}
+.menu-principal ul {
+  display:  flex;
+}
+.menu-principal ul li{
+  padding: 10px;
+}
+.logo {
+  background-image: url("Site/Logoheart.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 150px;
+  height: 30px;
+  text-indent: -9999px;
+  margin: 0 0 0 60px;
+}
+.menu-principal__lista {
+  padding: 0%;
+  margin-top: -5px;
+  margin-right: 150px;
+}
+.menu-principal__lista li {
+  list-style: none;
+  display: flex;
+}
+.menu-principal__item {
+  text-decoration: none;
+  font-weight: bold;
+  color: #343434;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 18px;
+}
+.menu-principal__item--atual {
+  color: #fff;
+}
+.main {
+  height: 100%;
+}
+.socials{
+  position: absolute;
+  top: 90%;
+  margin-left: 90px;
+}
